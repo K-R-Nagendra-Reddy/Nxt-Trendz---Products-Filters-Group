@@ -1,0 +1,53 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.category-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.list-element {
+  list-style-type: none;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+}
+.rating-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-stars {
+  background-color: #ffffff;
+  margin: 10px;
+}
+.button-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+.stars {
+  height: 20px;
+  width: 60px;
+}
+.list-rating {
+  list-style-type: none;
+  background-color: #ffffff;
+}
